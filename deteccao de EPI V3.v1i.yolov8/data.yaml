@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 11
+names: ['abafador_ruido', 'bota', 'capacete', 'luva', 'oculos', 'pessoa', 'sem_capacete', 'sem_luva', 'sem_oculos', 'sem_uniforme_seguranca', 'uniforme_seguranca']
+
+roboflow:
+  workspace: stuchi
+  project: deteccao-de-epi-v3-gzbdx
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/stuchi/deteccao-de-epi-v3-gzbdx/dataset/1

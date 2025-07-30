@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 9
+names: ['bota', 'capacete', 'fone de seguranca', 'luca', 'luva', 'oculos de protecao', 'pessoa', 'uniforme seguranca', 'unifr']
+
+roboflow:
+  workspace: stuchi
+  project: agrosafe-reforco
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/stuchi/agrosafe-reforco/dataset/2
